@@ -2,98 +2,112 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Kavish Jaiswal
+  given: Kavish
+  family: Jaiswal
 postnominals: []
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+  icon: "💻"
+role: AI & Full-Stack Software Engineer
+email: jkavish20@gmail.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Software engineer building AI systems and full-stack web applications.
+  I design multi-agent LLM architectures, RAG pipelines, and automation
+  workflows, and ship them to production with FastAPI, React, and n8n.
 
-affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+affiliations: []
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: mailto:jkavish20@gmail.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/MacDavicK
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://www.linkedin.com/in/kavish-jaiswal/
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - Agentic AI Systems
+  - RAG Pipelines
+  - Workflow Automation
+  - Full-Stack Web Development
+  - Fintech Platforms
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: B.E. (Honours) Electronic & Electrical Engineering, Computer Engineering major (GPA 6.45/7.0)
+    institution: University of Adelaide, Australia
+    start: 2019-02-01
+    end: 2022-12-01
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      Honours degree with a Computer Engineering major.
+  - degree: International Baccalaureate Diploma Programme
+    institution: Taylor's College, Malaysia
+    start: 2017-01-01
+    end: 2019-06-30
+    summary: ""
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: AI Engineering Fellow (Cohort 3)
+    org: Outskill
+    start: 2025-09-01
+    end: 2026-03-28
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      Six-month AI engineering program. Built and deployed 7+ LLM applications
+      across RAG, agentic AI, and multimodal workflows. Technical Lead on Flux,
+      a six-person capstone presented at demo day in Bengaluru.
+  - role: Lead Software Engineer
+    org: Rupee Heroes (NextGen Fintech Pvt Ltd)
+    start: 2024-09-01
+    end: 2025-08-31
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
+      Led the full platform revamp of a fintech lending product: React frontend
+      with dynamic product routing, MongoDB services on AWS, and a 35% response
+      time reduction through indexing and query optimization.
+  - role: Software Engineer
+    org: ADATE Pvt Ltd
+    start: 2022-12-01
+    end: 2024-06-30
     summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      Maintained and extended a recycling information platform, improving the
+      vendor engagement pipeline and increasing B2B recycling leads.
 
 skills:
   - name: Development
     items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
       - label: Python
-        level: 4
-  - name: DevOps
-    items:
-      - label: Docker
-        level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
         level: 5
+      - label: TypeScript
+        level: 4
+      - label: JavaScript
+        level: 4
+      - label: React / Next.js
+        level: 4
+      - label: Node.js
+        level: 4
+  - name: AI Engineering
+    items:
+      - label: LangChain / LangGraph
+        level: 4
+      - label: RAG (Pinecone)
+        level: 4
+      - label: FastAPI
+        level: 4
+      - label: n8n Automation
+        level: 5
+  - name: Data & Infra
+    items:
+      - label: MongoDB
+        level: 4
+      - label: Docker
+        level: 3
+      - label: AWS
+        level: 3
 
 languages:
   - name: English
+    level: 5
+    label: Fluent
+  - name: Hindi
     level: 5
     label: Native
 
