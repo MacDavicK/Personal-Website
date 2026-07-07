@@ -1,0 +1,12 @@
+{{ with resources.Get "js/vercel-analytics.js" }}
+  {{ $opts := dict
+    "targetPath" "js/vercel-analytics.min.js"
+    "format" "iife"
+    "minify" hugo.IsProduction
+  }}
+  {{ $js := . | js.Build $opts }}
+  {{ if hugo.IsProduction }}
+    {{ $js = $js | fingerprint "sha256" }}
+  {{ end }}
+  <script defer src="{{ $js.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
+{{ end }}
