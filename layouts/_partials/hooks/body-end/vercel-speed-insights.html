@@ -1,0 +1,9 @@
+{{/* Vercel Speed Insights */}}
+{{/* Only inject in production builds */}}
+{{/* When deployed on Vercel with Speed Insights enabled, the script is automatically available at /_vercel/speed-insights/script.js */}}
+{{ if hugo.IsProduction }}
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+{{ end }}
